@@ -41,7 +41,4 @@ public class ProdutoRepo implements Creatable<Produto>,
 		// TODO Auto-generated method stub
 		return null;
 	}
-	
-	
-
 }
