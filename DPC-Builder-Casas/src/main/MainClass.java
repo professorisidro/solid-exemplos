@@ -30,5 +30,14 @@ public class MainClass {
 		
 		System.out.println(c2);
 		
+		
+		builder.reset();
+		
+		c3 = builder.definirBanheiros(2)
+					.definirQuartos(2)
+					.definirTipoCozinha("Comum")
+					.build();
+		
+		System.out.println(c3);
 	}
 }
