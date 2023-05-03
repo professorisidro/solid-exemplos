@@ -7,6 +7,7 @@ public class ContaTXTRecord {
 	private String  txtCpfTitular;
 	private String  txtNomeTitular;
 	private Double  txtSaldo;
+	
 	public Integer getTxtNumeroConta() {
 		return txtNumeroConta;
 	}
